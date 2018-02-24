@@ -1,0 +1,36 @@
+{
+   "name": "js-ts",
+   "version": "1.0.0",
+   "description": "Small playaround with node.js and typescript",
+   "main": "app.ts",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts"
+   },
+   "author": "alastair knowles",
+   "license": "ISC",
+   "dependencies": {
+      "@types/mocha": "^2.2.48",
+      "@types/node": "^9.4.4",
+      "body-parser": "^1.18.2",
+      "express": "^4.16.2",
+      "logger": "0.0.1",
+      "mocha": "^5.0.0",
+      "multer": "^1.3.0",
+      "mysql": "^2.14.1",
+      "node": "^9.5.0",
+      "process": "^0.11.10",
+      "reflect-metadata": "^0.1.10",
+      "routing-controllers": "^0.7.6",
+      "typedi": "^0.6.1",
+      "typeorm": "0.1.12",
+      "typeorm-typedi-extensions": "^0.1.1",
+      "typescript-logging": "^0.5.0",
+      "winston": "^3.0.0-rc1"
+   },
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "2.5.2"
+   }
+}
